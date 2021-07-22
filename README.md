@@ -2,7 +2,7 @@
 Etrainer frontend repository
 
 ## How to get started
-- [X] clone the (repo)[]
+- [X] clone the [repo](https://gitlab.com/etrainermis/frontend-service)
 - [X] run `yarn install` or `npm install` to install dependencies
 - [X] run `git checkout -b/b <workspace branch>`
 - [X] run `yarn start` or `npm run start` to start dev server
