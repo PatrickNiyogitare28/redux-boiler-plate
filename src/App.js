@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import "./styles/output.css";
 
-function App() {
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from 'react-router-dom'
+
+import { Navbar } from './components/Navbar'
+import DashboardPage from './views/DashboardPage'
+import PostsPage from './views/PostsPage'
+import SinglePostPage from './views/SinglePostPage'
+import Onboard from './views/Onboard';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <Switch>
+       <Route exact path="/" component={Onboard} />
+      </Switch>
+      <Navbar />
+      <Switch>
+        <Route exact path="/dashboard" component={DashboardPage} />
+        <Route exact path="/posts" component={PostsPage} />
+        <Route exact path="/posts/:id" component={SinglePostPage} />
+        <Redirect to="/" />
+      </Switch>
+    </Router>
+   
+  )
 }
 
-export default App;
+export default App
