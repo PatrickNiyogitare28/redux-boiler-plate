@@ -41,6 +41,8 @@ Instead the styles should be put under `src/shared/styles`
 ### helpers
 > You might need to define a help or util functions
 
+[You can even install redux devtool chrome extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd/related?hl=en)
+
 ## Using env variables
 - We are using [react-dotenv](https://www.npmjs.com/package/react-dotenv), click to that link to checkout how it works
 - Create a `.env` file at the root of project and copy variables in `.env.example`
