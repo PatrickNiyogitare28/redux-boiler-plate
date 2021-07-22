@@ -24,9 +24,9 @@ Etrainer frontend repository
 Instead the styles should be put under `src/shared/styles`
 
 ### assets
-**images** for images
-**icons** for icons
-**logos** for app logos
+- **images** for images
+- **icons** for icons
+- **logos** for app logos
 
 ### actions
 > For states actions and dispatches
@@ -52,8 +52,8 @@ Instead the styles should be put under `src/shared/styles`
 The contribution is to be made by raising a PR
 
 ## Authors
-kobshallon041@gmail.com
-patrickniyogitare28@gmail.com
-oresteabizera11@gmail.com
-phelixdusengimana@gmail.com
+- kobshallon041@gmail.com
+- patrickniyogitare28@gmail.com
+- oresteabizera11@gmail.com
+- phelixdusengimana@gmail.com
 
